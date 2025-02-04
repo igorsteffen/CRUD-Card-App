@@ -1,5 +1,13 @@
-# CRUDE Project with ASP.NET Core and Razor Pages
 
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    <img src="https://i.postimg.cc/hGqZYdhS/index.jpg" alt="Index" width="200">
+    <img src="https://i.postimg.cc/zXVQHN91/create.jpg" alt="Create" width="200">
+    <img src="https://i.postimg.cc/yYtbF5H3/delete.jpg" alt="Delete" width="200">
+    <img src="https://i.postimg.cc/g2hB4DzS/edit.jpg" alt="Edit" width="200">
+</div>
+
+
+# CRUDE Project with ASP.NET Core and Razor Pages
 This is a CRUDE (Create, Read, Update, Delete) project developed for training purposes using the **ASP.NET Core Framework** with **Razor Pages**.
 
 ## Features
@@ -16,13 +24,6 @@ This is a CRUDE (Create, Read, Update, Delete) project developed for training pu
 - **Bootstrap**: For responsive and visually appealing designs.
 - **HTML & CSS**: To structure and style the application.
 
-## Screenshots
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-    <img src="https://i.postimg.cc/hGqZYdhS/index.jpg" alt="Index" width="200">
-    <img src="https://i.postimg.cc/zXVQHN91/create.jpg" alt="Create" width="200">
-    <img src="https://i.postimg.cc/yYtbF5H3/delete.jpg" alt="Delete" width="200">
-    <img src="https://i.postimg.cc/g2hB4DzS/edit.jpg" alt="Edit" width="200">
-</div>
 
 ## How to Run the Project
 
