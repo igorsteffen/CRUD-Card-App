@@ -1,9 +1,9 @@
-using CRUDECardApp.DataSource;
-using CRUDECardApp.Models;
+using CRUDCardApp.DataSource;
+using CRUDCardApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CRUDECardApp.Pages
+namespace CRUDCardApp.Pages
 {
     public class DeleteModel : PageModel
     {

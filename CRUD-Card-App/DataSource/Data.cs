@@ -1,6 +1,6 @@
-﻿using CRUDECardApp.Models;
+﻿using CRUDCardApp.Models;
 
-namespace CRUDECardApp.DataSource
+namespace CRUDCardApp.DataSource
 {
     public class Data
     {

@@ -1,4 +1,4 @@
-﻿namespace CRUDECardApp.Models
+﻿namespace CRUDCardApp.Models
 {
     public class Student
     {

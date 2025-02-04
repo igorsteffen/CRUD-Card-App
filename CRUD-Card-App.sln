@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDE-Card-App", "CRUDE-Card-App\CRUDE-Card-App.csproj", "{74D911B9-70D5-47A9-BBC9-E0498BF4F285}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD-Card-App", "CRUD-Card-App\CRUD-Card-App.csproj", "{74D911B9-70D5-47A9-BBC9-E0498BF4F285}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

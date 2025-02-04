@@ -1,8 +1,8 @@
-using CRUDECardApp.DataSource;
+using CRUDCardApp.DataSource;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CRUDECardApp.Pages
+namespace CRUDCardApp.Pages
 {
     public class IndexModel : PageModel
     {

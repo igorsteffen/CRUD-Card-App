@@ -1,4 +1,4 @@
-namespace CRUDECardApp
+namespace CRUDCardApp
 {
     public class Program
     {
