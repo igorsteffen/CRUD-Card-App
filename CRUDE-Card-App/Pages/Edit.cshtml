@@ -4,28 +4,40 @@
 }
 
 <form method="post">
-    <div class="row">
-        <div class="form-group col-md-6">
-            <label>Student Number</label>
-            <input type="text" name="StudentNumber" class="form-control" placeholder="Student Number" value=@Model.Student.StudentNumber />
-        </div>
-        <div class="form-group col-md-6">
-            <label>Full Name</label>
-            <input type="text" name="FullName" class="form-control" placeholder="Full Name" value=@Model.Student.FullName />
-        </div>
-        <div class="form-group col-md-6">
-            <label>E-Mail</label>
-            <input type="text" name="Email" class="form-control" placeholder="E-Mail" value=@Model.Student.Email />
-        </div>
-        <div class="form-group col-md-6">
-            <label>Password</label>
-            <input type="text" name="Password" class="form-control" placeholder="Password" value=@Model.Student.SetPassword/>
-        </div>
-        <div class="form-group col-md-6">
-            <label>Picture</label>
-            <input type="text" name="Picture" class="form-control" placeholder="Picture" value=@Model.Student.Picture />
+    <div class="d-flex justify-content-center mt-5">
+        <div class="text-center">
+            <h2>Edit Student</h2>
+            <div class="card mx-auto mt-5 mb-5" style="width: 18rem;">
+                <div class="card-header p-1" style="width:18rem; height: 10rem;">
+                    <img class="card-img-top" style="width:100%; height:100%; object-fit:fill;" src="@Model.Student.Picture" alt="Card image cap" />
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-person-video2 pe-2"></i><p class="card-text"></p>
+                        <input type="text" name="StudentNumber" class="form-control" placeholder="Student Number" value=@Model.Student.StudentNumber disabled/>
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <i class="bi bi-layout-text-sidebar-reverse pe-2"></i><p class="card-text"></p>
+                        <input type="text" name="FullName" class="form-control" placeholder="Full Name" value=@Model.Student.FullName />
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <i class="bi bi-envelope pe-2"></i><p class="card-text"></p>
+                        <input type="text" name="Email" class="form-control" placeholder="E-Mail" value=@Model.Student.Email />
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <i class="bi bi-file-lock pe-2"></i><p class="card-text"></p>
+                        <input type="text" name="Password" class="form-control" placeholder="Password" value=@Model.Student.SetPassword />
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <i class="bi bi-file-earmark-image pe-2"></i><p class="card-text"></p>
+                        <input type="text" name="Picture" class="form-control" placeholder="Picture" value=@Model.Student.Picture />
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-warning bi bi-pencil-square w-75 mt-3 mb-3"></button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <button type="submit" class="btn btn-warning w-100 mt-4"><i class="bi bi-pencil-square"></i></button>
 </form>

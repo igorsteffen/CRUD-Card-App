@@ -22,6 +22,11 @@
             return Password == password;
         }
 
+        public string GetPassword(string password)
+        {
+            return Password;
+        }
+
         public void SetPassword(string password)
         {
             Password = password;
