@@ -1,0 +1,31 @@
+﻿@page
+@model CRUDECardApp.Pages.DeleteModel
+@{
+}
+<form method="post">
+    <div class="d-flex justify-content-center mt-5">
+        <div class="text-center">
+            <h2>Are you sure you want to delete this?</h2>
+            <div class="card mx-auto mt-5 mb-5" style="width: 18rem;">
+                <div class="card-header p-1" style="width:18rem; height: 10rem;">
+                    <img class="card-img-top" style="width:100%; height:100%; object-fit:fill;" src="@Model.Student.Picture" alt="Card image cap" />
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-person-video2 pe-2"></i><p class="card-text">@Model.Student.StudentNumber</p>
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <i class="bi bi-layout-text-sidebar-reverse pe-2"></i><p class="card-text">@Model.Student.FullName</p>
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <i class="bi bi-envelope pe-2"></i><p class="card-text">@Model.Student.Email</p>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-danger col-md-5 mt-4">YES</button>
+                        <a asp-page="/Index" class="btn btn-primary col-md-5 mt-4">NO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
