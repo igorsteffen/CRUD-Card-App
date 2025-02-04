@@ -12,7 +12,7 @@ This is a CRUD (Create, Read, Update, Delete) project developed for training pur
 
 ## Features
 
-- Implements the full CRUDE operations.
+- Implements the full CRUD operations.
 - Razor Pages for structured and clean web application development.
 - Responsive design using **Bootstrap**.
 - Frontend built with **HTML** and **CSS**.
