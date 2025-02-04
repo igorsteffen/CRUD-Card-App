@@ -7,8 +7,8 @@
 </div>
 
 
-# CRUDE Project with ASP.NET Core and Razor Pages
-This is a CRUDE (Create, Read, Update, Delete) project developed for training purposes using the **ASP.NET Core Framework** with **Razor Pages**.
+# CRUD Project with ASP.NET Core and Razor Pages
+This is a CRUD (Create, Read, Update, Delete) project developed for training purposes using the **ASP.NET Core Framework** with **Razor Pages**.
 
 ## Features
 
